@@ -4,6 +4,9 @@ from sklearn.metrics.pairwise import cosine_similarity
 import pandas as pd
 import re
 from nltk.stem import SnowballStemmer
+import nltk
+
+nltk.download('punkt')
 
 st.title("Demo de TF-IDF con Preguntas y Respuestas")
 
